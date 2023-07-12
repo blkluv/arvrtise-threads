@@ -118,7 +118,7 @@ You can use any valid HEX color or pick from a predefined set of named colors (`
 | ---------- | ---- |
 | `black (default)` | <a href="https://www.threads.net/@zuck"><img src="https://threads.arvrtise.com/arvrtise-threads/zuck?labelColor=black" alt="Black Badge"></a> |
 | `white` | <a href="https://www.threads.net/@zuck"><img src="https://threads.arvrtise.com/arvrtise-threads/zuck?labelColor=white" alt="White Badge"></a> |
-| `gray` | <a href="https://www.threads.net/@zuck"><img src="https://threads.arvrtise.comarvrtise-threads/zuck?labelColor=gray" alt="Gray Badge"></a> |
+| `gray` | <a href="https://www.threads.net/@zuck"><img src="https://threads.arvrtise.com/arvrtise-threads/zuck?labelColor=gray" alt="Gray Badge"></a> |
 | `red` | <a href="https://www.threads.net/@zuck"><img src="https://threads.arvrtise.com/arvrtise-threads/zuck?labelColor=red" alt="Red Badge"></a> |
 | `green` | <a href="https://www.threads.net/@zuck"><img src="https://threads.arvrtise.com/arvrtise-threads/zuck?labelColor=green" alt="Green Badge"></a> |
 
@@ -128,7 +128,7 @@ You can enable or disable the badge icon (`true` is the default).
 
 | icon | demo |
 | ---- | ---- |
-| `true (default)` | <a href="https://www.threads.net/@zuck"><img src="https://threads.arvrtise.comarvrtise-threads/zuck" alt="Default Badge"></a> |
+| `true (default)` | <a href="https://www.threads.net/@zuck"><img src="https://threads.arvrtise.com/arvrtise-threads/zuck" alt="Default Badge"></a> |
 | `false` | <a href="https://www.threads.net/@zuck"><img src="https://threads.arvrtise.com/arvrtise-threads/zuck?icon=false" alt="No Icon Badge"></a> |
 
 ### Label
