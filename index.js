@@ -40,10 +40,10 @@ async function getThreadsFollowerCount(username) {
   }
 }
 
-// Route handler for /thread-count/
-app.get('/thread-count/', (req, res) => {
+// Route handler for /arvrtise-threads/
+app.get('/arvrtise-threads/', (req, res) => {
   const defaultBadge = badgen({
-    label: 'Thread Count',
+    label: 'Arvrtise Threads',
     status: 'Username not specified',
     color: 'red',
     style: 'flat',
@@ -53,15 +53,15 @@ app.get('/thread-count/', (req, res) => {
   return res.status(400).send(defaultBadge);
 });
 
-// Route handler for /thread-count/{username}
-app.get('/thread-count/:username', async (req, res) => {
+// Route handler for /arvrtise-threads/{username}
+app.get('/arvrtise-threads/:username', async (req, res) => {
   try {
     const { username } = req.params;
 
     // Check if username is provided
     if (!username) {
       const defaultBadge = badgen({
-        label: 'Thread Count',
+        label: 'Arvrtise Threads',
         status: 'Username not specified',
         color: 'red',
         style: 'flat',
@@ -82,7 +82,7 @@ app.get('/thread-count/:username', async (req, res) => {
     // Handle username not found
     if (!followerCount) {
       const defaultBadge = badgen({
-        label: 'Thread Count',
+        label: 'Arvrtise Threads',
         status: 'Username not found',
         color: 'red',
         style: 'flat',
@@ -99,7 +99,7 @@ app.get('/thread-count/:username', async (req, res) => {
     const badgeScale = req.query.scale || 1;
     const labelColor = req.query.labelColor || 'black';
     const useIcon = req.query.icon || true;
-    const label = req.query.label || 'Thread Count';
+    const label = req.query.label || 'Arvrtise Threads';
     const gradient = req.query.gradient || 'true';
     const gradientArray = ['FA7E1E', 'D62976', '962FBF', '4F5DB5'];
     const badge = badgen({
@@ -123,7 +123,7 @@ app.get('/thread-count/:username', async (req, res) => {
     }
   } catch (error) {
     const defaultBadge = badgen({
-      label: 'Thread Count',
+      label: 'Arvrtise Threads',
       status: error.message,
       color: 'red',
       style: 'flat',
@@ -149,7 +149,7 @@ app.use((req, res, next) => {
 });
 
 app.listen(port, () => {
-  console.log(`Thread Count API listening at http://localhost:${port}`);
+  console.log(`Arvrtise Threads API listening at http://localhost:${port}`);
 });
 
 module.exports = app;

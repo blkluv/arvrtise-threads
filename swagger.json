@@ -1,17 +1,17 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "Thread Count API",
+    "title": "Arvrtise Threads API",
     "version": "1.0.0",
     "description": "API for generating custom status badges for Instagram follower counts"
   },
   "servers": [
     {
-      "url": "http://thread-count.vercel.app"
+      "url": "http://threads.arvrtise.com"
     }
   ],
   "paths": {
-    "/thread-count/{username}": {
+    "/arvrtise-threads/{username}": {
       "get": {
         "summary": "Generate status badge for Instagram follower count",
         "parameters": [

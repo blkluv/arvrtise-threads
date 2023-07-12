@@ -1,5 +1,5 @@
 {
-  "name": "thread-count",
+  "name": "arvrtise-threads",
   "version": "1.0.0",
   "description": "Custom status badges for Threads.net follower counts",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AayushGithub/threads-projects.git"
+    "url": "git+https://github.com/blkluv/arvrtise-threads.git"
   },
-  "author": "AayushGithub",
+  "author": "The Wizard of Hahz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AayushGithub/threads-projects/issues"
+    "url": "https://github.com/blkluv/arvrtise-threads/issues"
   },
-  "homepage": "https://github.com/AayushGithub/threads-projects#readme",
+  "homepage": "https://github.com/blkluv/arvrtise-threads#readme",
   "dependencies": {
     "axios": "^1.4.0",
     "badgen": "^3.2.2",
